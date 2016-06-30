@@ -17,8 +17,8 @@ public class Etudiant {
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
-        this.anneeNaisance = anneeNaissance;
-        this.annee = annee;
+        this.anneeNaissance = anneeNaissance;
+
     }
 
     public String getNom() {
