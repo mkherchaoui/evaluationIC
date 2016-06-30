@@ -7,10 +7,18 @@ public class Etudiant {
 
     private String adresse;
 
-    public Etudiant(String nom, String prenom, String adresse) {
+    private int anneeNaissance;
+
+    private int annee = 2016;
+
+    private int age;
+
+    public Etudiant(String nom, String prenom, String adresse, int anneeNaissance) {
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
+        this.anneeNaisance = anneeNaissance;
+        this.annee = annee;
     }
 
     public String getNom() {
@@ -35,5 +43,11 @@ public class Etudiant {
 
     public void setAdresse(String adresse) {
         this.adresse = adresse;
+    }
+
+    public int getAge(){
+        age = annee-anneeNaissance
+        ;
+        return age;
     }
 }
